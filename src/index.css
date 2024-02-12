@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #56ab91;
+}
+
+nav a.active{
+  @apply border-b-2 border-green-900 pb-3
+}
+
+.error{
+  text-shadow: 5px 5px 10px #fff;
+}
+
+@media only screen and (max-width:768px) {
+  nav a.active{
+    border: none;
+    padding: 0;
+  }
+}
+
+.bg-whidth{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
